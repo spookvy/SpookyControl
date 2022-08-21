@@ -1,4 +1,5 @@
 -- skid this, leak this, do whatever idc its a ui
+-- open source to save more cpu
 
 local CPUGPUSaver = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")

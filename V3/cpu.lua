@@ -1,3 +1,5 @@
+-- skid this, leak this, do whatever idc its a ui
+
 local CPUGPUSaver = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UIGradient = Instance.new("UIGradient")

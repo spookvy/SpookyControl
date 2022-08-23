@@ -1,3 +1,5 @@
+getgenv().IdleToggle = true
+wait()
 local ControllerIDLE = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UIGradient = Instance.new("UIGradient")
@@ -6,7 +8,7 @@ local SavingCPU = Instance.new("TextLabel")
 local Spookyv3 = Instance.new("TextLabel")
 local idle = Instance.new("TextLabel")
 ControllerIDLE.Name = "Controller IDLE"
-ControllerIDLE.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ControllerIDLE.Parent = game.CoreGui
 Frame.Parent = ControllerIDLE
 Frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Frame.BorderColor3 = Color3.fromRGB(35, 35, 35)
